@@ -1,0 +1,17 @@
+# ESP-IDF build artifacts
+build/
+sdkconfig.old
+managed_components/
+
+# IDE / Editor directories
+.idea/
+.vscode/
+
+# Compiled client binaries & archives
+client/client
+client/client-android-arm64
+*.zip
+
+# OpenSSL intermediate CSR / serial files
+certs/*.csr
+certs/*.srl

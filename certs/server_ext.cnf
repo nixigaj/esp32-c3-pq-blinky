@@ -1,0 +1,4 @@
+basicConstraints = CA:FALSE
+keyUsage = critical, digitalSignature
+extendedKeyUsage = serverAuth
+subjectAltName = IP:192.168.43.10, IP:10.193.95.10, IP:192.168.4.67, DNS:esp32c3.local
